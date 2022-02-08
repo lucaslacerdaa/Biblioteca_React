@@ -1,5 +1,7 @@
 import axios from "axios";
 
+//Comunicação básica com a API
+
 export const api = axios.create({
-    baseURL: 'https://localhoast:3000/api'
+    baseURL: 'http://localhost:5000/api'
 })
