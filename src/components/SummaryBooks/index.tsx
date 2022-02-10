@@ -22,15 +22,15 @@ export function SummaryBooks(props:Product){
                 <header>
                     <p className='title'> 
                         <strong> Livro: </strong>  
-                        {props.name}
+                        { props.name }
                    </p>
                    <p className='autor'>
                         <strong> Autor: </strong> 
-                        {props.category.name}
+                        { props.category.name }
                     </p>
                     <p className='url'>
                         <strong> Url: </strong>
-                        {props.url}
+                        { props.url }
                     </p>
                 </header>
             </div>

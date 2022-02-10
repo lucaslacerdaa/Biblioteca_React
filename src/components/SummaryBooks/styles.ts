@@ -3,16 +3,10 @@ import styled from "styled-components";
 export const Container = styled.div`
     display: block;
     weight: 100px;
-    //grid-template-columns: repeat(2, 1fr);
-    //gap: 0rem
-    /* margin: auto; */
     align-items: center;
     justify-content: center;
     
     margin-top: 1.5rem;
-    /* *{
-        color: black;
-    } */
 
     div{
         background: var(--shape);

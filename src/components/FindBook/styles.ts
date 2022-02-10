@@ -20,10 +20,8 @@ export const Container = styled.div`
            &::placeholder{
                color: var(--text-body);
            }
-           /* & + input{
-               margin-top: 1rem;
-           } */
        }
+
        button{
           font-size: 1rem;
           color: #fff;

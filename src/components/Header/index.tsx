@@ -1,14 +1,13 @@
-
 import logoImg from '../../assets/LOGO.png'
 import { Container, Content } from './styles'
-import { ButtonBuscar } from '../ButtonBuscar';
+import { FindBook } from '../FindBook';
 
 export function Header() {
     return(
         <Container>
             <Content>
-                <img src={logoImg} alt="dt money" />
-                <ButtonBuscar/> 
+                <img src={logoImg} alt="Biblioteca Lacerda" />
+                <FindBook /> 
             </Content>
         </Container>
     )
