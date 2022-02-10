@@ -1,23 +1,36 @@
 import { url } from 'inspector';
+import { api } from '../../services/api';
+import { useState, useEffect } from 'react';
 import { Container } from './styles'
 
+interface Product{
+    id: number;
+    name: string;
+    quantityInPackage: number;
+    unitOfMeasurement: string;
+    url: string;
+    category: {
+        id: number, 
+        name: string
+    };    
+}
 
-export function SummaryBooks(){
+export function SummaryBooks(props:Product){
     return(
         <Container>
             <div>
                 <header>
                     <p className='title'> 
                         <strong> Livro: </strong>  
-                        Harry Potter e o Prisioneiro de Azkaban
-                    </p>
-                    <p className='autor'>
+                        {props.name}
+                   </p>
+                   <p className='autor'>
                         <strong> Autor: </strong> 
-                        J. K. Rowling
+                        {props.category.name}
                     </p>
                     <p className='url'>
-                        <strong> Url: </strong>                       
-                        https://www.amazon.com.br/Harry-Potter-Prisioneiro-Azkaban-Rowling/dp/853253080X
+                        <strong> Url: </strong>
+                        {props.url}
                     </p>
                 </header>
             </div>

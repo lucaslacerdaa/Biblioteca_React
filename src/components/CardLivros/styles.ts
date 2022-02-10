@@ -10,7 +10,9 @@ export const Container = styled.div`
     justify-content: center;
     
     margin-top: 1.5rem;
-
+    /* *{
+        color: black;
+    } */
 
     div{
         background: var(--shape);
