@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     display: block;
-    /* wight: 100px; */
     align-items: center;
     justify-content: center;
     max-width: 100vw;
@@ -11,20 +10,25 @@ export const Container = styled.div`
       margin-right: auto;
 
     margin-top: 1.5rem;
-
     div{
         wight:150px;
         background: var(--shape);
         padding: 1.5rem 2rem;
         border-radius: 0.55rem;
         color: var(--text-title);
+        
         header{
+            display: inline;
         }
         h2{
             font-size: 20px;
         }
         p{
             margin-top: 1.5rem;
+        }
+        strong{
+            color: #505050;
+            font-weight: 600;
         }
         .title{
             font-size: 22px;
@@ -37,13 +41,23 @@ export const Container = styled.div`
             cursor: pointer;
             margin-top: 2rem;
         }
-        strong{
-            display: inline;
-            color: #505050;
-            /* margin-top: 1rem; */
-            /* font-size: 18px; */
-            font-weight: 600;
-            /* line-height: 3rem; */
+    }
+    .imgcontainer{
+        display: flex;
+        align-itens: center;
+        justify-content: center;
+
+        border: 1px solid;
+        
+        width: 180px;
+        height: 180px;
+
+        margin-right: -10rem;
+        padding: 0;
+        img{
+            margin: 0;
+            object-fit: cover;
+            height: -webkit-fill-available;               
         }
     }
 `

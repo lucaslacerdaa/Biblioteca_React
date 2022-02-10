@@ -41,18 +41,22 @@ export function Dashboard(){
                 title= "Harry Potter e o Prisioneiro de Azkaban" 
                 autor= 'J. K. Rowling'
                 url= 'https://www.google.com/'
+                photo='https://images-na.ssl-images-amazon.com/images/I/81u+ljPVifL.jpg'
+                
             />
             
             <SummaryExemple 
                 title='Breves respostas para grandes questões' 
                 autor='Stephen Hawking'
                 url='https://www.google.com/'
+                photo='https://images-na.ssl-images-amazon.com/images/I/514qyZzgdjS._SX328_BO1,204,203,200_.jpg'
             />
 
             <SummaryExemple 
                 title='Uma Breve História do Tempo' 
                 autor='Stephen Hawking'
                 url='https://www.google.com/'
+                photo='https://nerdstore.com.br/wp-content/uploads/2019/01/livro-uma-breve-historia-do-tempo-stephen-hawking.jpg'
             />
 
                         
