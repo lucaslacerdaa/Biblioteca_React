@@ -1,0 +1,114 @@
+[
+    {
+        "id" : "01",
+        "name": "Harry Potter e a Pedra Filosofal",
+        "author" : "J.K. Rowling",
+        "photo" : "https://lojasaraiva.vteximg.com.br/arquivos/ids/12110250/1007739147.jpg?v=637142252496370000",
+        "url": "https://www.amazon.com.br/Harry-Potter-Pedra-Filosofal-Rowling/dp/8532530788"
+    },
+    {
+        "id" : "02",
+        "name": "Harry Potter e a Câmara Secreta",
+        "author" : "J.K. Rowling",
+        "photo" : "https://images-na.ssl-images-amazon.com/images/I/81jbivNEVML.jpg",
+        "url": "https://www.amazon.com.br/Harry-Potter-C%C3%A2mara-Secreta-Rowling/dp/853251166X"
+    },
+    {
+        "id" : "03",
+        "name": "Harry Potter e o Prisioneiro de Azkaban",
+        "author" : "J.K. Rowling", 
+        "photo" : "https://images-na.ssl-images-amazon.com/images/I/81u+ljPVifL.jpg",
+        "url": "https://www.amazon.com.br/Harry-Potter-Prisioneiro-Azkaban-Rowling/dp/8532512062"
+    },
+    {
+        "id" : "04",
+        "name": "Harry Potter e o Cálice de Fogo",
+        "author" : "J.K. Rowling",
+        "photo" : "https://images-na.ssl-images-amazon.com/images/I/81nTLN-kz7L.jpg",
+        "url": "https://www.amazon.com.br/Harry-Potter-C%C3%A1lice-Fogo-J-k-Rowling/dp/8532512526"
+    },
+    {
+        "id" : "05",
+        "name": "Harry Potter e a Ordem da Fênix",
+        "author" : "J.K. Rowling",
+        "photo" : "https://d3ugyf2ht6aenh.cloudfront.net/stores/419/354/products/81d6esypzwl1-875289496b2ab4f06415894924361552-1024-1024.jpg",
+        "url": "https://pt.wikipedia.org/wiki/Harry_Potter_and_the_Order_of_the_Phoenix"
+    },
+    {
+        "id" : "06",
+        "name": "Harry Potter e o Enigma do Príncipe",
+        "author" : "J.K. Rowling",   
+        "photo" : "https://images-na.ssl-images-amazon.com/images/I/81yFIh1yoZL.jpg",
+        "url": "https://www.amazon.com.br/Harry-Potter-Enigma-Do-Pr%C3%ADncipe/dp/8532519474"
+    },
+    {
+        "id" : "07",
+        "name": "Harry Potter e as Relíquias da Morte",
+        "author" : "J.K. Rowling", 
+        "photo" : "https://images-na.ssl-images-amazon.com/images/I/81rvO7xcJOL.jpg",  
+        "url": "https://www.amazon.com.br/Harry-Potter-As-Rel%C3%ADquias-Morte/dp/8532522610"
+    },
+    {
+        "id" : "08",
+        "name": "O Código Da Vinci",
+        "author" : "Dan Brown",
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91QSDmqQdaL.jpg",
+        "url": "https://www.google.com/aclk?sa=L&ai=DChcSEwi0-7uF2Pb1AhWKEJEKHcBPAN0YABADGgJjZQ&ae=2&sig=AOD64_3HBdBeoUrHNTmDI30fzT6USpjxbA&ctype=5&q=&ved=2ahUKEwjI07CF2Pb1AhWOILkGHXl_CE8Q9aACegQIbhAS&adurl="
+    },
+    {
+        "id" : "09",
+        "name": "O Símbolo Perdido",
+        "author" : "Dan Brown",
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91vgurdy2LL.jpg",
+        "url": "https://www.google.com/aclk?sa=L&ai=DChcSEwjX27aU2Pb1AhWWhJEKHWz5DeMYABADGgJjZQ&ae=2&sig=AOD64_0_Qx6dbvlcyJnctTjw1-mL1ETNQg&ctype=5&q=&ved=2ahUKEwjb_q2U2Pb1AhWhIbkGHY7eA0MQ9aACegQIcBAS&adurl="
+    },
+    {
+        "id" : "10",
+        "name": "Origem",
+        "author" : "Dan Brown",
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/81Y3DwapTVL.jpg",
+        "url": "https://www.amazon.com.br/Origem-Dan-Brown/dp/858041766X"
+    },
+    {
+        "id" : "11",
+        "name": "Angels & Demons",
+        "author" : "Dan Brown",
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/71vK8XjRM+L.jpg",
+        "url": "https://www.amazon.com.br/Angels-Demons-Dan-Brown/dp/074349346X"
+    },
+    {
+        "id" : "12",
+        "name": "Inferno",
+        "author" : "Dan Brown",
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/61RpxrfYE2L.jpg",
+        "url": "https://www.amazon.com.br/Inferno-Dan-Brown/dp/8580411521"
+    },
+    {
+        "id" : "13",
+        "name": "Ponto de Impacto",
+        "author" : "Dan Brown",
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/41vJ3IZhwnS._SX346_BO1,204,203,200_.jpg",
+        "url": "https://www.amazon.com.br/Ponto-Impacto-Dan-Brown/dp/8599296019"
+    },
+    {
+        "id" : "14",
+        "name": "Fortaleza Digital",
+        "author" : "Dan Brown",
+        "photo": "https://m.media-amazon.com/images/I/51LM3o+4x6L.jpg",
+        "url": "https://www.amazon.com.br/Fortaleza-Digital-Dan-Brown/dp/8599296205"
+    },
+    {
+        "id" : "15",
+        "name": "Rápido e devagar",
+        "author" : "Daniel Kahneman",
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/61pt9lG-PvL.jpg",
+        "url": "https://www.amazon.com.br/R%C3%A1pido-devagar-Daniel-Kahneman/dp/853900383X"
+    },
+    {
+        "id" : "16",
+        "name": "Mindset: A nova psicologia do sucesso",
+        "author" : "Charles Duhigg",
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/71Ils+Co9fL.jpg",
+        "url": "https://www.amazon.com.br/Mindset-Carol-S-Dweck/dp/8547000240"
+    }
+]
