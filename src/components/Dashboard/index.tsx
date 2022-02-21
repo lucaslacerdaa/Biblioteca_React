@@ -57,9 +57,8 @@ export function Dashboard(){
                 autor='Stephen Hawking'
                 url='https://www.google.com/'
                 photo='https://nerdstore.com.br/wp-content/uploads/2019/01/livro-uma-breve-historia-do-tempo-stephen-hawking.jpg'
-            />
-
-                        
+            />       
+                
         </Container>
     );
 }

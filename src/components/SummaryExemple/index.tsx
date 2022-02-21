@@ -12,6 +12,10 @@ export function SummaryExemple(props: Product){
         <Container>
             <div>
 
+                <div className='imgcontainer'>
+                    <img src={props.photo} alt="Foto do livro:"/>
+                </div>
+
                 <header>
                     <p className='title'> 
                         <strong> Livro: </strong>
@@ -26,10 +30,6 @@ export function SummaryExemple(props: Product){
                         {props.url}
                     </p>
                 </header>
-
-                <div className='imgcontainer'>
-                    <img src={props.photo} alt="Foto do livro:"/>
-                </div>
                 
             </div>
         </Container>

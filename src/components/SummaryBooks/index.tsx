@@ -2,6 +2,7 @@ import { url } from 'inspector';
 import { api } from '../../services/api';
 import { useState, useEffect } from 'react';
 import { Container } from './styles'
+import { useStore, useSelector } from "react-redux";
 
 interface Product{
     id: number;
@@ -16,6 +17,9 @@ interface Product{
 }
 
 export function SummaryBooks(props:Product){
+    const books = useSelector(state => state);
+    console.log(books);
+
     return(
         <Container>
             <div>

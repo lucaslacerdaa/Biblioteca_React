@@ -16,9 +16,13 @@ export const Container = styled.div`
         padding: 1.5rem 2rem;
         border-radius: 0.55rem;
         color: var(--text-title);
+        display: flex;
+        align-items: center;
+        justify-content: start;
         
         header{
-            display: inline;
+            /* display: inline-block; */
+            margin-left: 13rem;
         }
         h2{
             font-size: 20px;
@@ -47,7 +51,7 @@ export const Container = styled.div`
         align-itens: center;
         justify-content: center;
 
-        border: 1px solid;
+        /* border: 1px solid; */
         
         width: 180px;
         height: 180px;
